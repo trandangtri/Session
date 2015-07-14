@@ -4,11 +4,11 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Yves\Session\Plugin\ServiceProvider;
+namespace SprykerFeature\Yves\Session\Communication\Plugin\ServiceProvider;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;
-use SprykerEngine\Yves\Kernel\AbstractPlugin;
+use SprykerEngine\Yves\Kernel\Communication\AbstractPlugin;
 use SprykerFeature\Client\Session\Service\SessionClientInterface;
 use SprykerFeature\Shared\Library\Config;
 use SprykerFeature\Shared\Library\Session as SessionHelper;
@@ -16,7 +16,7 @@ use SprykerFeature\Shared\Session\SessionConfig;
 use SprykerFeature\Shared\System\SystemConfig;
 use SprykerFeature\Shared\Yves\YvesConfig;
 
-class SessionServiceProviderPlugin extends AbstractPlugin implements ServiceProviderInterface
+class SessionServiceProvider extends AbstractPlugin implements ServiceProviderInterface
 {
 
     /**
