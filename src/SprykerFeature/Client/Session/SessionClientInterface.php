@@ -4,7 +4,7 @@
  * (c) Spryker Systems GmbH copyright protected
  */
 
-namespace SprykerFeature\Client\Session\Service;
+namespace SprykerFeature\Client\Session;
 
 use Symfony\Component\HttpFoundation\Session\SessionInterface;
 
