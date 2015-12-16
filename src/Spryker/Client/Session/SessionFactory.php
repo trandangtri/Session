@@ -8,6 +8,6 @@ namespace Spryker\Client\Session;
 
 use Spryker\Client\Kernel\AbstractFactory;
 
-class SessionDependencyContainer extends AbstractFactory
+class SessionFactory extends AbstractFactory
 {
 }
